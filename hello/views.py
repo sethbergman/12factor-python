@@ -20,4 +20,4 @@ def db(request):
 
 @app.route('/codebase')
 def codebase():
-    return render_template('factor.html')
+    return render_template('codebase.md')
