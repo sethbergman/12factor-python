@@ -9,15 +9,6 @@ def index(request):
     return render(request, 'index.html')
 
 
-def db(request):
+def codebase(request):
 
-    greeting = Greeting()
-    greeting.save()
-
-    greetings = Greeting.objects.all()
-
-    return render(request, 'db.html', {'greetings': greetings})
-
-@app.route('/codebase')
-def codebase():
-    return render_template('codebase.md')
+    return render(request, 'codebase.html')
