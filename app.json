@@ -1,8 +1,8 @@
 {
-  "name": "Python on Heroku example",
-  "description": "A barebones Python app, which can easily be deployed to Heroku.",
-  "image": "heroku/python",
-  "repository": "https://github.com/heroku/python-getting-started",
-  "keywords": ["python", "django" ],
+  "name": "12-Factor Python",
+  "description": "A Python app, which can easily be deployed.",
+  "image": "sethbergman/12factor-python",
+  "repository": "https://github.com/sethbergman/12factor-python.git",
+  "keywords": ["python", "12-Factor" ],
   "addons": [ "heroku-postgresql" ]
 }
