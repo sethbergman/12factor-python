@@ -18,3 +18,6 @@ def db(request):
 
     return render(request, 'db.html', {'greetings': greetings})
 
+@app.route('/codebase')
+def codebase():
+    return render_template('factor.html')
